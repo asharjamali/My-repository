@@ -239,8 +239,8 @@ headings.forEach(heading => {
       icon.classList.add('clicked');
       setTimeout(() => icon.classList.remove('clicked'), 400);
       sections.forEach(sec => {
-        const secId = sec.getAttribute('id');
-        sec.style.background = secId ? `var(--q${secId}-bg, #fff)` : '#fff';
+        
+        
       });
       const section = heading.closest('section');
       const sectionId = section?.getAttribute('id');
