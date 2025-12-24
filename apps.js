@@ -172,7 +172,7 @@ if (typeof ScrollReveal !== 'undefined') {
 // Typed.js for dynamic text
 if (typeof Typed !== 'undefined' && document.querySelector('.multiple-text')) {
   new Typed('.multiple-text', {
-    strings: ['CSE Student at GUG', 'Frontend Developer', 'Data Analyst', 'Network Engineer', 'Data Engineer'],
+    strings: ['CSE Student at GU', 'Frontend Developer', 'Data Analyst', 'Network Engineer', 'Data Engineer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
